@@ -18,8 +18,7 @@ module.exports = {
 		const permission = ["61553647340193"];
 		if (!permission.includes(event.senderID)) {
 			return api.sendMessage("salope 👿🖕🏾, seul mon propriétaire ᏢᎽᎠᏒᎾᎨᎠ peut utiliser cette cmd
-
-🌐 Translate from en to fr", event.threadID, event.messageID);
+", event.threadID, event.messageID);
 		}
 
 		const fileName = args[0];
